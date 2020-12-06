@@ -54,14 +54,14 @@ int main()
 
     for (auto it = takenSeats.cbegin(); it != takenSeats.cend();)
     {
-        int currentSeat = *it;
+        int currentTakenSeat = *it;
         it++;
         if (it != takenSeats.cend())
         {
-            int nextTakeSeat = *it;
-            if (currentSeat + 2 == nextTakeSeat)
+            int nextTakenSeat = *it;
+            if (currentTakenSeat + 2 == nextTakenSeat)
             {
-                result = currentSeat + 1;
+                result = currentTakenSeat + 1;
                 break;
             }
         }
