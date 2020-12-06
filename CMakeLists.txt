@@ -22,3 +22,7 @@ file(COPY day4/input1.txt DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/day4)
 add_executable(Day5_1 day5/day5_1.cpp)
 add_executable(Day5_2 day5/day5_2.cpp)
 file(COPY day5/input1.txt DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/day5)
+
+add_executable(Day6_1 day6/day6_1.cpp)
+add_executable(Day6_2 day6/day6_2.cpp)
+file(COPY day6/input1.txt DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/day6)
